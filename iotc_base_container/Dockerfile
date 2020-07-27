@@ -3,7 +3,7 @@
 # Licensed under the MIT license.
 #-------------------------------------------------------------------------------
 
-FROM  ubuntu:bionic
+FROM  ubuntu:xenial
 LABEL AUTHOR="Oguz Bastemur <oguz.bastemur@microsoft.com>"
 ARG   ARG_VERSION
 LABEL version="$ARG_VERSION"
